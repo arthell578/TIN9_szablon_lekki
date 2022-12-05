@@ -23,7 +23,7 @@ function App() {
       <input type="text" id="wiek" onChange={(event) => 
         {ustawWiek(event.target.value);
         }}/>
-      <button onClick={dodajOsobe}>Dodaj osobe</button>
+      <button>Dodaj osobe</button>
     </div>
 
   );
